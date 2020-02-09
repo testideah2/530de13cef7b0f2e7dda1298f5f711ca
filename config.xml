@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "ru.4ufitness.app."
         versionCode = "10"
-        version     = "1.3.0">
+        version     = "1.4.0">
 
-    <name>ТЕСТ. 4ufitness.ru</name>
+    <name>ТЕСТ. 4UFitness</name>
 
     <description>
         Занимайся с удовольствием и достигай большего в новом панорамном фитнес клубе.
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#FF0024" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
